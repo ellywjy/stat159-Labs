@@ -1,3 +1,6 @@
 library(testthat)
-test_file("tests/test-range-value.R")
-test_file("tests/test-missing-values.R")
+test_file("test/test-range-value.R")
+test_file("test/test-missing-values.R")
+test_file("test/test-center-measures.R")
+test_file("test/test-spread-measures.R")
+test_file("test/test-descriptive-stats.R")
